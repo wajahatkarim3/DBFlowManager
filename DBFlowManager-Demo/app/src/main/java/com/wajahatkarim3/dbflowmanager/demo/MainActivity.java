@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.KeyEvent;
 
 import com.wajahatkarim3.dbflowmanager.AndroidDatabaseManager;
+import com.wajahatkarim3.dbflowmanager.demo.database.DemoDatabase;
+import com.wajahatkarim3.dbflowmanager.demo.database.UserModel;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,6 +15,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        UserModel um = new UserModel();
+        um.email = "sasd@gmail.com";
+        um.save();
+
+
     }
 
     @Override
@@ -20,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
         if (BuildConfig.DEBUG) {
             if ((keyCode == KeyEvent.KEYCODE_VOLUME_DOWN)) {
                 //Do something
-                Intent ii = new Intent(this, DatabaseActivity.class);
-                ii.putExtra("className", MyDatabase.class);
+                Intent ii = new Intent(this, AndroidDatabaseManager.class);
+                ii.putExtra("className", DemoDatabase.class);
                 startActivity(ii);
                 return true;
             }
