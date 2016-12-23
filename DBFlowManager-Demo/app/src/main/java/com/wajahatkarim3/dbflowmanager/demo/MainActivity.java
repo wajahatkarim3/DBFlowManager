@@ -9,6 +9,8 @@ import com.wajahatkarim3.dbflowmanager.AndroidDatabaseManager;
 import com.wajahatkarim3.dbflowmanager.demo.database.DemoDatabase;
 import com.wajahatkarim3.dbflowmanager.demo.database.UserModel;
 
+import static com.wajahatkarim3.dbflowmanager.AndroidDatabaseManager.DATABASE_CLASS_KEY;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -28,9 +30,7 @@ public class MainActivity extends AppCompatActivity {
         if (BuildConfig.DEBUG) {
             if ((keyCode == KeyEvent.KEYCODE_VOLUME_DOWN)) {
                 //Do something
-                Intent ii = new Intent(this, AndroidDatabaseManager.class);
-                ii.putExtra("className", DemoDatabase.class);
-                startActivity(ii);
+                AndroidDatabaseManager.launchDatabaseManager(this, DemoDatabase.class);
                 return true;
             }
         }

@@ -4,7 +4,9 @@ package com.wajahatkarim3.dbflowmanager;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.MatrixCursor;
 import android.database.SQLException;
@@ -41,6 +43,8 @@ import java.util.LinkedList;
 public class AndroidDatabaseManager extends Activity implements OnItemClickListener {
 
     protected Class<?> myClass;
+
+    public static final String DATABASE_CLASS_KEY = "dbClassName";
 
     //a static class to save cursor,table values etc which is used by functions to share data in the program.
     static class indexInfo
@@ -79,11 +83,10 @@ public class AndroidDatabaseManager extends Activity implements OnItemClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-
         //in the below line Change the text 'yourCustomSqlHelper' with your custom sqlitehelper class name
-        if (getIntent().hasExtra("className"))
+        if (getIntent().hasExtra(DATABASE_CLASS_KEY))
         {
-            myClass = (Class<?>) getIntent().getExtras().get("className");
+            myClass = (Class<?>) getIntent().getExtras().get(DATABASE_CLASS_KEY);
         }
 
         mainscrollview = new ScrollView(AndroidDatabaseManager.this);
@@ -1359,6 +1362,13 @@ public class AndroidDatabaseManager extends Activity implements OnItemClickListe
         }
 
 
+    }
+
+    public static void launchDatabaseManager(Context context, Class<?> databaseClass)
+    {
+        Intent ii = new Intent(context, AndroidDatabaseManager.class);
+        ii.putExtra(DATABASE_CLASS_KEY, databaseClass);
+        context.startActivity(ii);
     }
 
 }
