@@ -16,7 +16,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.wajahatkarim3.dbflowmanager.AndroidDatabaseManager"/>
+        <activity android:name="com.wajahatkarim3.dbflowmanager.DBFlowManagerActivity"/>
 
     </application>
 

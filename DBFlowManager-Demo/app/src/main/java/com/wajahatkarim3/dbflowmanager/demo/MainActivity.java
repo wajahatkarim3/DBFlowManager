@@ -1,15 +1,12 @@
 package com.wajahatkarim3.dbflowmanager.demo;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.KeyEvent;
 
-import com.wajahatkarim3.dbflowmanager.AndroidDatabaseManager;
+import com.wajahatkarim3.dbflowmanager.DBFlowManagerActivity;
 import com.wajahatkarim3.dbflowmanager.demo.database.DemoDatabase;
 import com.wajahatkarim3.dbflowmanager.demo.database.UserModel;
-
-import static com.wajahatkarim3.dbflowmanager.AndroidDatabaseManager.DATABASE_CLASS_KEY;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         um.save();
 
 
+
     }
 
     @Override
@@ -30,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         if (BuildConfig.DEBUG) {
             if ((keyCode == KeyEvent.KEYCODE_VOLUME_DOWN)) {
                 //Do something
-                AndroidDatabaseManager.launchDatabaseManager(this, DemoDatabase.class);
+                DBFlowManagerActivity.launchDatabaseManager(this, DemoDatabase.class);
                 return true;
             }
         }
