@@ -14,7 +14,6 @@ public class CompanyModel extends BaseModel {
 
     @Column @PrimaryKey(autoincrement = true) public int companyId;
     @Column public String companyName;
-    @Column public String address;
     @Column public String phone;
 
 }
