@@ -68,7 +68,7 @@ DBFlowManagerActivity.launchDatabaseManager(context, MyAppDatabase.class);
 - DatabaseManager ([https://github.com/sanathp/DatabaseManager_For_Android][dmlib])
 
 # Developed By
-```groovy
+```
 Wajahat Karim
 ```
 - Website (http://wajahatkarim.com)
