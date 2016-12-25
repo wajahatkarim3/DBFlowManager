@@ -26,7 +26,7 @@ Using this library, you can easily view, insert, delete, update the tables of yo
 Install [Demo.apk][demk] in your device and click on DBFlow Manager Activity button!
 
 # Screenshots
-![N|Solid](https://github.com/wajahatkarim3/DBFlowManager/blob/master/Art/screen1.png) ![N|Solid](https://github.com/wajahatkarim3/DBFlowManager/blob/master/Art/screen2.png) ![N|Solid](https://github.com/wajahatkarim3/DBFlowManager/blob/master/Art/screen3.png)
+![N|Solid](https://github.com/wajahatkarim3/DBFlowManager/blob/master/Art/screens.png)
   
 # Installation
 
@@ -69,7 +69,7 @@ DBFlowManagerActivity.launchDatabaseManager(context, MyAppDatabase.class);
 
 # Developed By
 ```groovy
-Wajahat Karim - [Click here to send email!][eml]
+Wajahat Karim
 ```
 - Website (http://wajahatkarim.com)
 - Twitter (http://twitter.com/wajahatkarim)
