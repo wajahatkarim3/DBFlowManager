@@ -23,7 +23,7 @@ Using this library, you can easily view, insert, delete, update the tables of yo
 
 # Demo
 
-Install [Demo.apk][demk] in your device and click on DBFlow Manager Activity button!
+Install [Demo][demk] from [Releases][rels] in your device and click on DBFlow Manager Activity button!
 
 # Screenshots
 ![N|Solid](https://github.com/wajahatkarim3/DBFlowManager/blob/master/Art/screens.png)
@@ -103,5 +103,6 @@ Wajahat Karim
 [dflib]: <https://github.com/Raizlabs/DBFlow>
 [dmlib]: <https://github.com/sanathp/DatabaseManager_For_Android>
 [dbmlib]: <https://github.com/wajahatkarim3/DBFlowManager>
-[dbmlib]: <https://github.com/wajahatkarim3/DBFlowManager/blob/master/Demo.apk>
+[demk]: <https://github.com/wajahatkarim3/DBFlowManager/releases/download/3.1.1-v1/Demo_3.1.1-v1.apk>
+[rels]: <https://github.com/wajahatkarim3/DBFlowManager/releases>
 [eml]: <mailto:wajahatkarim3@gmail.com>
