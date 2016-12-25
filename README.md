@@ -1,3 +1,5 @@
+# DBFlowManager
+
 [ ![Download](https://api.bintray.com/packages/wajahatkarim3/DBFlowManager/com.wajahatkarim3.DBFlowManager/images/download.svg?version=3.1.1) ](https://bintray.com/wajahatkarim3/DBFlowManager/com.wajahatkarim3.DBFlowManager/3.1.1/link)
 
 A quick and easy database manager and viewer plugin library for your DBFlow databases to view, insert, delete, update the tables directly inside your app.
@@ -8,6 +10,7 @@ In short,
 DBFlow + DatabaseManager = DBFlowManager
 ```
 Using this library, you can easily view, insert, delete, update the tables of your app's DBFlow database directly from your app by using just a single line of code.
+
 ## Features
   - View all your tables data in tabular format
   - Insert rows to your tables
@@ -18,6 +21,13 @@ Using this library, you can easily view, insert, delete, update the tables of yo
   - Write your own custom queries and view the results. (Create statements, joins, etc)
   - Change data in the tables and see how you application responds
 
+# Demo
+
+Install [Demo.apk][demk] in your device and click on DBFlow Manager Activity button!
+
+# Screenshots
+![N|Solid](https://github.com/wajahatkarim3/DBFlowManager/blob/master/Art/screen1.png) ![N|Solid](https://github.com/wajahatkarim3/DBFlowManager/blob/master/Art/screen2.png) ![N|Solid](https://github.com/wajahatkarim3/DBFlowManager/blob/master/Art/screen3.png)
+  
 # Installation
 
 Add it to your project's root build.gradle with:
@@ -59,7 +69,7 @@ DBFlowManagerActivity.launchDatabaseManager(context, MyAppDatabase.class);
 
 # Developed By
 ```groovy
-Wajahat Karim - <wajahatkarim3@gmail.com>
+Wajahat Karim - [Click here to send email!][eml]
 ```
 - Website (http://wajahatkarim.com)
 - Twitter (http://twitter.com/wajahatkarim)
@@ -93,3 +103,5 @@ Wajahat Karim - <wajahatkarim3@gmail.com>
 [dflib]: <https://github.com/Raizlabs/DBFlow>
 [dmlib]: <https://github.com/sanathp/DatabaseManager_For_Android>
 [dbmlib]: <https://github.com/wajahatkarim3/DBFlowManager>
+[dbmlib]: <https://github.com/wajahatkarim3/DBFlowManager/blob/master/Demo.apk>
+[eml]: <mailto:wajahatkarim3@gmail.com>
