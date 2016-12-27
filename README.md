@@ -1,6 +1,6 @@
 # DBFlowManager
 
-[ ![Download](https://api.bintray.com/packages/wajahatkarim3/DBFlowManager/com.wajahatkarim3.DBFlowManager/images/download.svg?version=3.1.1) ](https://bintray.com/wajahatkarim3/DBFlowManager/com.wajahatkarim3.DBFlowManager/3.1.1/link) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-DBFlowManager-brightgreen.svg?style=flat)]()
+[ ![Download](https://api.bintray.com/packages/wajahatkarim3/DBFlowManager/com.wajahatkarim3.DBFlowManager/images/download.svg?version=3.1.1) ](https://bintray.com/wajahatkarim3/DBFlowManager/com.wajahatkarim3.DBFlowManager/3.1.1/link) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-DBFlowManager-brightgreen.svg?style=flat)]() [![API](https://img.shields.io/badge/API-15%2B-blue.svg?style=flat)](https://android-arsenal.com/api?level=15)
 
 A quick and easy database manager and viewer plugin library for your DBFlow databases to view, insert, delete, update the tables directly inside your app.
 ## Inspiration & Description
